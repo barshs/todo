@@ -1,0 +1,118 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ background-image: url(./pink.jpeg);
+ background-repeat: no-repeat;
+ background-position:center center ;
+ background-size: cover;
+ 
+}
+h1
+{
+    color:white;
+} 
+.heading
+{
+   
+    text-align: left;
+}
+textarea
+{
+width:300px;
+height: 100px;
+margin:2px 2px 2px 2px;
+}
+#add
+{
+    margin-left: 10px;
+margin-top: 0 px;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+.containerup
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h1
+{
+    text-align: center;
+}
+#add
+{
+    height:90px;
+}
+input{
+    cursor: pointer;
+}
+.no
+
+    {  margin:1px 1px;
+
+    background-color: rgb(250, 144, 144);
+}
+
+.whole
+{
+    border:1px solid white;
+    overflow: auto;
+    margin:2px 2px;
+    color:white;
+    
+}
+.noinput
+{
+    
+    border:1px solid black;
+    background-color: rgb(202, 25, 25);
+}
+.up:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgb(212, 206, 206);}
+.delete:hover{
+    cursor: pointer;
+ color:white;
+    background-color: rgb(105, 105, 116);
+    box-shadow: 1px 1px 5px rgb(119, 114, 114);
+}
+#add:hover{
+    cursor: pointer;
+ color:white;
+    background-color: rgb(105, 105, 116);
+}
+#listcopy
+{
+ 
+    display: grid;
+    grid-template-columns: 1fr 2fr 4.4fr  0.5fr;   
+}
+.containerup
+{
+    margin:2px 2px;
+}
+
+.containers
+{
+  
+    display: grid;
+    grid-template-columns: 1fr 2fr 3.9fr 1fr;
+}
+.list 
+{  margin:1px 1px;
+    background-color: rgb(250, 144, 144);
+   
+    text-align: center;
+}
+
